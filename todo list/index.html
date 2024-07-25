@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="images/list-resized.gif"> </h2>
+            <!-- <i class="fi fi-rr-cross-circle"></i>
+            <i class="fi fi-rr-check-circle"></i>
+            <i class="fi fi-rr-circle"></i> -->
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button>Add</button>
+            </div>
+            <ul id="list-container">
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
